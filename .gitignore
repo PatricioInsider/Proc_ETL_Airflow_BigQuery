@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+*.log
+
+# Entorno virtual
+env/
+venv/
+ENV/
+*.env
+sistemas/
+# Claves y credenciales
+claveCloud*.json
+
+# Archivos de configuración locales
+airflow.cfg
+config/
+
+# Logs de ejecución
+logs/
+
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Recomendación general
+*.bak
+*.swp
